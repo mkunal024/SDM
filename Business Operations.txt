@@ -1,0 +1,21 @@
+Buisness Operations:
+
+Employees->
+EmpID, password
+
+Managers->
+ManagersID, password
+
+Stakeholder>
+StakeholderID, password
+
+Organization->
+Project: ProjectId
+Teams: Team unique number
+Work/task: Task number
+
+Update/Changes: Access
+
+Employees Time: Log in/out,leave
+
+Task:completed/incompleted details and Assign details  

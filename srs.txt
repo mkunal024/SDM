@@ -1,0 +1,50 @@
+Document: Online Project Management
+
+Introduction: A web-application for online management of a project within an organization, which helps employees, managers, stakeholders working on a project to keep updates with the work going in a project.   
+
+Team:Employees, project managers, delivery managers and stakeholders.
+
+Scope: A web-based ui application which helps to manage work by getting information about task completed/incompleted in a project an to whom they are assign. This application helps to know about progress of project in an organization.
+ 
+Funtional Requirement:
+Access->
+Employees working on a on going project can access web-application by employeeID and password. Only administrator access given to project managers and delivery managers to make changes/update work assign or can also have access to change the priority of task in a project.
+
+Time management->
+Login details of employees get store to use time effectively and manage their working hours. And complete work according to priority. Also, manages employees working hours on weekly and monthly basis it helps to calculate their effeiciency and targets assign to them and been completed within given deadline. 
+
+Notification->
+Notify employees on their daily targets and show warning message if they are missing some task with high prioity. And generates daily,weekly and monthly reports on project and send messages to managers which further reports this to stakeholders.
+
+Non-functional Requirenment:
+Security-> Unauthorized user didn't get the access to the project details nor employees get access to all the important details.
+Ccmunication channel between Servers ( Web Servers, App Servers, database Server)
+Sensitive data will be always encrypted across communication.
+User proper firewall to protect servers from out side fishing, vulnerable attacks.
+
+Reliability:
+The system will backup business data on regular basis and recover in short time duration to keep system operational Continuous updates are maintained, continuous Administration is done to keep system operational.
+During peak hours system will maintain same user experience by managing load balancing .
+
+Availability
+uptime:   24* 7  available
+		 99.999%
+
+Maintainability:
+A Commercial database software will be used to maintain System data Persistence.
+A readymade Web Server will be installed to host online laundry portal (Web Site) to management server capabilities.
+IT operations team will easily monitor and configure System using Administrative tools provided by Servers.
+Separate environment will be maintained for system for isolation in  production, testing, and development.
+
+Portability:Employees of an organization can get access to work from thier on system or use portable system like AWS to do work.
+ 
+Accessibility:Only authorized person can have access to the working area in a project by userID and password.
+
+Durability: Application should keep on upgrading to last long.
+
+Efficiency:Application should maintain traffic efficiently by sharing load on different servers and shutting unused servers.
+
+Safety: Website should be safe from malicious attack which can cause data leakage.
+
+Glossary:
+ui -> user-interface

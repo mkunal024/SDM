@@ -1,0 +1,2 @@
+Buisness entities->
+Employees, delivery managers, project Managers, stakeholders, user-interface, employeeID, managerID, high priority work, project, task, data
